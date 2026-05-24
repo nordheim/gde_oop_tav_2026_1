@@ -3,7 +3,9 @@ from datetime import date
 
 
 def menu():
-    print("\n===== AUTÓKÖLCSÖNZŐ RENDSZER =====")
+    kolcsonzo = Autokolcsonzo()
+    print("\n===================================")
+    print(f"Üdvözöljük a {kolcsonzo.nev}-ben!")
     print("1. Autók listázása")
     print("2. Autó bérlése")
     print("3. Bérlés lemondása")
