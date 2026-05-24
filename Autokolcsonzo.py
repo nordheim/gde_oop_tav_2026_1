@@ -4,6 +4,7 @@ from teherauto import Teherauto
 # az autokolcsonzo osztály,
 # amibe belekerül 3 előre definiált autó, amiket ki lehet kölcsönözni
 
+
 class Autokolcsonzo:
     def __init__(self):
         self.__nev = "Távos kölcsönző"
